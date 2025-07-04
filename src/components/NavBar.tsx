@@ -1,7 +1,9 @@
+import NavLink from "./NavLink";
+
 const NavBar = () => (
   <nav>
-    <a href="/">Home</a>
+    <NavLink href="/">Home</NavLink>
   </nav>
-)
+);
 
 export default NavBar;

@@ -1,9 +1,13 @@
-import NavBar from "./components/NavBar";
+import IDCard from "./components/IDCard";
+import About from "./components/sections/About";
 
-const App = () =>{
+const App = () => {
   return (
-    <NavBar />
-  )
-}
+    <div className="flex flex-row">
+      <IDCard />
+      <About />
+    </div>
+  );
+};
 
-export default App
+export default App;
