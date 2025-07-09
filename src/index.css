@@ -7,8 +7,20 @@
   font-family: "Inter", sans-serif;
 }
 
-#root {
-  margin-top: 40px;
-  margin-left: 200px;
-  margin-right: 200px;
+.typewriter-text::after {
+  content: '|';
+  margin-left: 4px;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
 }
