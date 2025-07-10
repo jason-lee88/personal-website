@@ -1,16 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to right bottom, rgb(2, 6, 23) 0px, rgb(15, 23, 42) 50%, rgb(2, 6, 23) 100%);
+  background: rgb(15, 23, 42);
   font-family: "Inter", sans-serif;
 }
 
 .typewriter-text::after {
   content: '|';
-  margin-left: 4px;
-  animation: blink 1.5s infinite;
+  animation: blink 1s infinite;
 }
 
 @keyframes blink {

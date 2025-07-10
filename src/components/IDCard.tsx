@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import Me from "../assets/me_2025_square.jpg";
+import Me from "../assets/me_2025_tall.jpg";
 import LinkIcon from "./LinkIcon";
 
 import LinkedIn from "../assets/brand-linkedin.svg?react"
@@ -35,10 +35,10 @@ const IDCard = () => {
   }, [titleCharacter]);
 
   return (
-    <div className="w-md h-md bg-neutral-500/40 rounded-xl px-20 py-10 flex flex-col justify-center items-center">
-      <img src={Me} className="rounded-xl" />
-      <h1 className="text-white text-4xl font-bold">Jason Lee</h1>
-      <h2 className="text-white typewriter-text">{titleText}</h2>
+    <div className="w-sm h-md bg-neutral-500/40 rounded-xl px-20 py-10 flex flex-col justify-center items-center">
+      <img src={Me} className="rounded-xl mb-4" />
+      <h1 className="text-neutral-50 text-4xl font-bold">Jason Lee</h1>
+      <h2 className="text-neutral-50 typewriter-text">{titleText}</h2>
       <div className="w-full h-8" />
       <div className="w-full flex justify-center items-center gap-3">
         <LinkIcon icon={<LinkedIn />} href="https://linkedin.com/in/jasonlee88/" />
