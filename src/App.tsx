@@ -6,7 +6,7 @@ import Projects from "./components/sections/Projects";
 const App = () => {
   return (
     <div className="relative h-full">
-      <div className="bg-[url('./assets/overlay.png')] absolute w-full h-full bg-repeat opacity-10 pointer-events-none" />
+      <div className="bg-[url('./assets/page-overlay.png')] absolute w-full h-full bg-repeat opacity-10 pointer-events-none" />
       <div className="w-full h-full flex flex-row px-100 pt-20 pb-60 gap-40 justify-center">
         <div className="flex h-min justify-center items-center sticky top-20">
           <IDCard />

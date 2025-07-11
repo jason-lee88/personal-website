@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 
-import Me from "../assets/me_2025_tall.jpg";
+import Me from "../assets/portrait.jpg";
 import LinkIcon from "./LinkIcon";
 
-import LinkedIn from "../assets/brand-linkedin.svg?react"
-import GitHub from "../assets/brand-github.svg?react";
-import Mail from "../assets/mail.svg?react";
-import TextFile from "../assets/file-text.svg?react";
+import LinkedIn from "../assets/icons/brand-linkedin.svg?react"
+import GitHub from "../assets/icons/brand-github.svg?react";
+import Mail from "../assets/icons/mail.svg?react";
+import TextFile from "../assets/icons/file-text.svg?react";
 
 const titles = ["Full Stack Developer", "Software Engineer"];
 
@@ -35,7 +35,7 @@ const IDCard = () => {
   }, [titleCharacter]);
 
   return (
-    <div className="w-sm h-md bg-neutral-500/40 rounded-xl px-20 py-10 flex flex-col justify-center items-center">
+    <div className="w-sm h-md bg-neutral-200/10 rounded-xl px-20 py-10 flex flex-col justify-center items-center">
       <img src={Me} className="rounded-xl mb-4" />
       <h1 className="text-neutral-50 text-4xl font-bold">Jason Lee</h1>
       <h2 className="text-neutral-50 typewriter-text">{titleText}</h2>
