@@ -2,6 +2,7 @@ import Card from "./Card";
 import CardHeaderText from "./CardHeaderText";
 import BodyText from "../typography/BodyText";
 import Badge from "../Badge";
+import ExternalLink from "../../assets/icons/external-link.svg?react";
 
 type ExperienceCardProps = {
   company: string;
@@ -14,10 +15,11 @@ type ExperienceCardProps = {
 
 const ExperienceCard = ({ company, title, startDate, endDate, body, technologies }: ExperienceCardProps) => (
   <Card>
-    <div className="w-full flex items-center gap-3">
+    <div className="w-full flex items-center gap-3 text-neutral-50">
       <CardHeaderText>{company}</CardHeaderText>
       <div className="h-1 w-1 bg-white rounded-full top-1/2 transform -translate-y-1/2" />
       <CardHeaderText>{title}</CardHeaderText>
+      <ExternalLink />
     </div>
     <div className="w-full">
       <h5 className="text-neutral-50 text-sm">{startDate} - {endDate}</h5>

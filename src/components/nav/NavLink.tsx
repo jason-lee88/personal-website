@@ -5,7 +5,7 @@ type NavLinkProps = {
 };
 
 const NavLink = ({ href, children }: PropsWithChildren<NavLinkProps>) => (
-  <a href={href}><span className="mr-4 h-px w-8" />{children}</a>
+  <a className="text-neutral-50" href={href}><span className="mr-4 h-px w-8" />{children}</a>
 );
 
 export default NavLink;
