@@ -5,19 +5,14 @@ import Badge from "../Badge";
 
 import ExternalLink from "../../assets/icons/external-link.svg?react";
 
-type ProjectCardProps = {
-  title: string;
-  thumbnail: string;
-  body: string;
-  technologies: string[];
-}
+import type { ProjectData } from "../sections/Projects";
 
-const ProjectCard = ({ title, thumbnail, body, technologies }: ProjectCardProps) => (
+const ProjectCard = ({ title, thumbnail, body, technologies }: ProjectData) => (
   <Card>
     <img src={thumbnail} alt={title} className="w-full h-full object-cover rounded-lg mb-4" />
-    <div className="w-full flex items-center text-neutral-50 gap-2">
+    <div className="w-full flex justify-between text-neutral-50 gap-8">
       <CardHeaderText>{title}</CardHeaderText>
-      <ExternalLink />
+      <ExternalLink className="shrink-0" />
     </div>
     <BodyText>{body}</BodyText>
     <div className="flex flex-wrap gap-2 mt-2">

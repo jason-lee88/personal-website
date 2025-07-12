@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+::selection {
+  color: var(--color-neutral-800);
+  background: var(--color-sky-200);
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -3,7 +3,7 @@ type CardHeaderTextProps = {
 };
 
 const CardHeaderText = ({ children }: CardHeaderTextProps) => (
-  <h4 className="text-neutral-50 font-bold text-lg">
+  <h4 className="text-neutral-50 font-bold text-md">
     {children}
   </h4>
 );

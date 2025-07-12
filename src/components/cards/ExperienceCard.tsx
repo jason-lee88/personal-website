@@ -4,22 +4,13 @@ import BodyText from "../typography/BodyText";
 import Badge from "../Badge";
 import ExternalLink from "../../assets/icons/external-link.svg?react";
 
-type ExperienceCardProps = {
-  company: string;
-  title: string;
-  startDate: string;
-  endDate: string;
-  body: string;
-  technologies: string[];
-}
+import type { ExperienceData } from "../sections/Experience";
 
-const ExperienceCard = ({ company, title, startDate, endDate, body, technologies }: ExperienceCardProps) => (
+const ExperienceCard = ({ company, title, startDate, endDate, body, technologies }: ExperienceData) => (
   <Card>
-    <div className="w-full flex items-center gap-3 text-neutral-50">
-      <CardHeaderText>{company}</CardHeaderText>
-      <div className="h-1 w-1 bg-white rounded-full top-1/2 transform -translate-y-1/2" />
-      <CardHeaderText>{title}</CardHeaderText>
-      <ExternalLink />
+    <div className="w-full inline-flex justify-between text-neutral-50 gap-8">
+      <CardHeaderText>{`${company} · ${title}`}</CardHeaderText>
+      <ExternalLink className="shrink-0" />
     </div>
     <div className="w-full">
       <h5 className="text-neutral-50 text-sm">{startDate} - {endDate}</h5>

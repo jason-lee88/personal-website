@@ -3,7 +3,7 @@ import ProjectCard from "../cards/ProjectCard";
 
 import MerchantMathTutoring from "../../assets/projects-thumbnails/merchant-math-tutoring.jpg";
 
-type ProjectData = {
+export type ProjectData = {
   title: string;
   thumbnail: string;
   body: string;
@@ -21,7 +21,7 @@ const projectsData: ProjectData[] = [
 
 const Projects = () => (
   <Section id="projects" header="Projects">
-    <ul className="flex flex-col gap-2">
+    <ul className="w-full flex flex-col gap-4">
       {projectsData.map((project) => (
         <li key={project.title}>
           <ProjectCard
