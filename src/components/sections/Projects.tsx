@@ -3,7 +3,7 @@ import ProjectCard from "../cards/ProjectCard";
 
 import MerchantMathTutoring from "../../assets/projects-thumbnails/merchant-math-tutoring.jpg";
 import PersonalWebsite from "../../assets/projects-thumbnails/personal-website.jpg";
-import BeatBuddy from "../../assets/projects-thumbnails/beat-buddy.png";
+import BeatBuddy from "../../assets/projects-thumbnails/beat-buddy.jpg";
 
 export type ProjectData = {
   title: string;
