@@ -8,6 +8,7 @@ export type ProjectData = {
   thumbnail: string;
   body: string;
   technologies: string[];
+  href: string;
 }
 
 const projectsData: ProjectData[] = [
@@ -16,19 +17,21 @@ const projectsData: ProjectData[] = [
     thumbnail: MerchantMathTutoring,
     body: "A tutoring platform for math students.",
     technologies: ["React", "Node.js"],
+    href: "https://merchantmathtutor.com"
   },
 ];
 
 const Projects = () => (
   <Section id="projects" header="Projects">
     <ul className="w-full flex flex-col gap-4">
-      {projectsData.map((project) => (
-        <li key={project.title}>
+      {projectsData.map(({ title, thumbnail, body, technologies, href }) => (
+        <li key={title}>
           <ProjectCard
-            title={project.title}
-            thumbnail={project.thumbnail}
-            body={project.body}
-            technologies={project.technologies}
+            title={title}
+            thumbnail={thumbnail}
+            body={body}
+            technologies={technologies}
+            href={href}
           />
         </li>
       ))}

@@ -6,8 +6,8 @@ import ExternalLink from "../../assets/icons/external-link.svg?react";
 
 import type { ExperienceData } from "../sections/Experience";
 
-const ExperienceCard = ({ company, title, startDate, endDate, body, technologies }: ExperienceData) => (
-  <Card>
+const ExperienceCard = ({ company, title, startDate, endDate, body, technologies, href }: ExperienceData) => (
+  <Card href={href}>
     <div className="w-full inline-flex justify-between text-neutral-50 gap-8">
       <CardHeaderText>{`${company} · ${title}`}</CardHeaderText>
       <ExternalLink className="shrink-0" />
