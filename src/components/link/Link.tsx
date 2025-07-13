@@ -4,7 +4,7 @@ type IconProps = {
 }
 
 const Link = ({ children, href }: IconProps) => (
-  <a className="text-neutral-50" href={href} target="_blank">
+  <a className="text-neutral-50 font-semibold" href={href} target="_blank">
     {children}
   </a>
 );

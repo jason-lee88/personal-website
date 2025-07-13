@@ -3,7 +3,7 @@ type BadgeProps = {
 }
 
 const Badge = ({ children }: BadgeProps) => (
-  <div className="bg-neutral-500/40 text-neutral-50 rounded-full px-3 py-1">
+  <div className="bg-sky-900/40 text-sky-200 font-medium rounded-full px-4 py-1">
     {children}
   </div>
 )

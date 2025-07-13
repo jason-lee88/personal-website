@@ -9,7 +9,7 @@ import type { ProjectData } from "../sections/Projects";
 
 const ProjectCard = ({ title, thumbnail, body, technologies, href }: ProjectData) => (
   <Card href={href}>
-    <img src={thumbnail} alt={title} className="w-full h-full object-cover rounded-lg mb-4" />
+    <img src={thumbnail} alt={title} className="w-full h-full object-cover rounded-lg mb-4 border-3 border-neutral-600" />
     <div className="w-full flex justify-between text-neutral-50 gap-8">
       <CardHeaderText>{title}</CardHeaderText>
       <ExternalLink className="shrink-0" />

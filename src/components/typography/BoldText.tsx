@@ -3,7 +3,7 @@ type BodyTextProps = {
 }
 
 const BodyText = ({ children }: BodyTextProps) => {
-  return <b className={`text-neutral-50 text-lg`}>{children}</b>;
+  return <b className={`text-neutral-50 text-lg font-semibold`}>{children}</b>;
 };
 
 export default BodyText;
