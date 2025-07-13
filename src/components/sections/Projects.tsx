@@ -18,14 +18,14 @@ const projectsData: ProjectData[] = [
     thumbnail: MerchantMathTutoring,
     body: "A place for students to learn more about our tutoring platform start-up. View our team of tutors, course offerings, and testimonials from our students.",
     technologies: ["React", "TypeScript", "Node"],
-    href: "https://merchantmathtutor.com"
+    href: "https://www.merchantmathtutor.com"
   },
   {
     title: "Personal Website",
     thumbnail: PersonalWebsite,
     body: "My personal portfolio for others (like you!) to learn more about my work as a software engineer.",
     technologies: ["React", "Tailwind CSS", "TypeScript", "Node"],
-    href: "https://jsnlee.com"
+    href: "https://www.jsnlee.com"
   }
 ];
 
