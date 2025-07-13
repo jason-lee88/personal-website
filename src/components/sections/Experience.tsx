@@ -15,7 +15,7 @@ export type ExperienceData = {
 const experienceData: ExperienceData[] = [
   {
     company: "Lutron Electronics",
-    title: "Senior Project Software Engineer",
+    title: "Senior Software Engineer",
     startDate: "January 2024",
     endDate: "Present",
     body: "Developing, maintaining, and shipping features for a modern, customer-facing web portal enabling cloud-based management of lighting systems. Advised and trained junior frontend engineers on best practices when contributing frontend code. Implemented and maintained backend services and integrated with the frontend via RESTful APIs for full end-to-end functionality.",
@@ -24,7 +24,7 @@ const experienceData: ExperienceData[] = [
   },
   {
     company: "Lutron Electronics",
-    title: "Project Software Engineer",
+    title: "Software Engineer",
     startDate: "July 2022",
     endDate: "January 2024",
     body: "Created the company's web-based design system containing 20+ reusable UI components, 100+ icons, and dark mode support used across all web applications. Collaborated closely with UX designers to implement best practices and ensure a cohesive user experience.",
