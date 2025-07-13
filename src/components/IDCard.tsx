@@ -35,7 +35,7 @@ const IDCard = () => {
   }, [titleCharacter]);
 
   return (
-    <div className="w-full h-min bg-neutral-200/10 rounded-xl px-20 py-10 pt-10 flex flex-col justify-center items-center">
+    <div className="w-full h-min bg-neutral-200/10 rounded-xl px-20 py-10 pt-10 flex flex-col justify-center items-center transition ease-out hover:scale-103">
       <img src={Me} className="rounded-xl mb-4 max-h-80" />
       <h1 className="text-neutral-50 text-4xl font-bold">Jason Lee</h1>
       <h2 className="text-neutral-50 typewriter-text">{titleText}</h2>
