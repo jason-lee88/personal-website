@@ -18,7 +18,7 @@ const experienceData: ExperienceData[] = [
     title: "Senior Project Software Engineer",
     startDate: "January 2024",
     endDate: "Present",
-    body: "Developing, maintaining, and shipping features for a modern, customer-facing web portal enabling cloud-based management of lighting systems. Advised and trained junior frontend engineers on best practices when contributing to the web portal. Implemented and maintained backend services and integrated with the frontend via RESTful APIs for full end-to-end functionality.",
+    body: "Developing, maintaining, and shipping features for a modern, customer-facing web portal enabling cloud-based management of lighting systems. Advised and trained junior frontend engineers on best practices when contributing frontend code. Implemented and maintained backend services and integrated with the frontend via RESTful APIs for full end-to-end functionality.",
     technologies: ["React", "TypeScript", "JavaScript", "HTML & CSS", "Jest", "Cypress", "AWS", "Go"],
     href: "https://connect.lutron.com"
   },

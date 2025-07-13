@@ -14,7 +14,9 @@ const ProjectCard = ({ title, thumbnail, body, technologies, href }: ProjectData
       <CardHeaderText>{title}</CardHeaderText>
       <ExternalLink className="shrink-0" />
     </div>
-    <BodyText>{body}</BodyText>
+    <div className="w-full flex flex-col my-4">
+      <BodyText>{body}</BodyText>
+    </div>
     <div className="flex flex-wrap gap-2 mt-2">
       {technologies.map((technology) =>
         <Badge key={technology}>{technology}</Badge>
