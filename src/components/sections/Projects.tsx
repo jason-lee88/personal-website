@@ -3,6 +3,7 @@ import ProjectCard from "../cards/ProjectCard";
 
 import MerchantMathTutoring from "../../assets/projects-thumbnails/merchant-math-tutoring.jpg";
 import PersonalWebsite from "../../assets/projects-thumbnails/personal-website.jpg";
+import BeatBuddy from "../../assets/projects-thumbnails/beat-buddy.png";
 
 export type ProjectData = {
   title: string;
@@ -24,8 +25,15 @@ const projectsData: ProjectData[] = [
     title: "Personal Website",
     thumbnail: PersonalWebsite,
     body: "My personal portfolio for others (like you!) to learn more about my work as a software engineer.",
-    technologies: ["React", "Tailwind CSS", "TypeScript", "Node"],
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Node"],
     href: "https://www.jsnlee.com"
+  },
+  {
+    title: "Beat Buddy",
+    thumbnail: BeatBuddy,
+    body: "A full-stack platform for avid concert-goers to discover new events and meet new friends with similar interests. Create a user account, search for upcoming concerts, and connect with other users who are also interested.",
+    technologies: ["PugJS", "Node", "Express", "Ticketmaster API", "MongoDB"],
+    href: "https://beat-buddy-rg8w.onrender.com/"
   }
 ];
 
