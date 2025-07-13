@@ -37,7 +37,7 @@ const experienceData: ExperienceData[] = [
     startDate: "May 2023",
     endDate: "Present",
     body: "Developing a STEM tutoring platform for my start-up with my friend. Managing project requirements with business initiatives, successfully growing the platform.",
-    technologies: ["React", "TypeScript", "HTML & CSS", "Node.js"],
+    technologies: ["React", "TypeScript", "HTML & CSS", "Node"],
     href: "https://merchantmathtutor.com"
   },
   {

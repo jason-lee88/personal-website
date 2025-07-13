@@ -2,6 +2,7 @@ import Section from "../Section";
 import ProjectCard from "../cards/ProjectCard";
 
 import MerchantMathTutoring from "../../assets/projects-thumbnails/merchant-math-tutoring.jpg";
+import PersonalWebsite from "../../assets/projects-thumbnails/personal-website.jpg";
 
 export type ProjectData = {
   title: string;
@@ -15,10 +16,17 @@ const projectsData: ProjectData[] = [
   {
     title: "Merchant Math Tutoring",
     thumbnail: MerchantMathTutoring,
-    body: "A tutoring platform for math students.",
-    technologies: ["React", "Node.js"],
+    body: "A place for students to learn more about our tutoring platform start-up. View our team of tutors, course offerings, and testimonials from our students.",
+    technologies: ["React", "TypeScript", "Node"],
     href: "https://merchantmathtutor.com"
   },
+  {
+    title: "Personal Website",
+    thumbnail: PersonalWebsite,
+    body: "My personal portfolio for others (like you!) to learn more about my work as a software engineer.",
+    technologies: ["React", "Tailwind CSS", "TypeScript", "Node"],
+    href: "https://jsnlee.com"
+  }
 ];
 
 const Projects = () => (
