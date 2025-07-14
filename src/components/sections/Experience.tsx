@@ -19,7 +19,7 @@ const experienceData: ExperienceData[] = [
     startDate: "January 2024",
     endDate: "Present",
     body: "Developing, maintaining, and shipping features for a modern, customer-facing web portal enabling cloud-based management of lighting systems. Advised and trained junior frontend engineers on best practices when contributing frontend code. Implemented and maintained backend services and integrated with the frontend via RESTful APIs for full end-to-end functionality.",
-    technologies: ["React", "TypeScript", "JavaScript", "HTML & CSS", "Jest", "Cypress", "AWS", "Go"],
+    technologies: ["React", "TypeScript", "JavaScript", "Node", "HTML & CSS", "Jest", "Cypress", "Amazon Web Services (AWS)", "Go"],
     href: "https://connect.lutron.com"
   },
   {
@@ -28,7 +28,7 @@ const experienceData: ExperienceData[] = [
     startDate: "July 2022",
     endDate: "January 2024",
     body: "Created the company's web-based design system containing 20+ reusable UI components, 100+ icons, and dark mode support used across all web applications. Collaborated closely with UX designers to implement best practices and ensure a cohesive user experience.",
-    technologies: ["React", "TypeScript", "JavaScript", "HTML & CSS", "Jest", "Cypress", "Jenkins CI/CD", "TanStack Query"],
+    technologies: ["React", "TypeScript", "JavaScript", "Node", "HTML & CSS", "Jest", "Cypress", "Jenkins CI/CD", "TanStack Query"],
     href: "https://connect.lutron.com"
   },
   {
