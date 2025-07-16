@@ -8,7 +8,7 @@ import GitHub from "../assets/icons/brand-github.svg?react";
 import Mail from "../assets/icons/mail.svg?react";
 import TextFile from "../assets/icons/file-text.svg?react";
 
-const titles = ["Full Stack Developer", "Software Engineer"];
+const titles = ["Full Stack Developer", "Frontend Engineer", "Software Engineer"];
 
 const IDCard = () => {
   const [titleText, setTitleText] = useState("");
