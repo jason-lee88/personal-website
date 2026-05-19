@@ -17,7 +17,7 @@ const experienceData: ExperienceData[] = [
     company: "Lutron Electronics",
     title: "Senior Software Engineer",
     startDate: "January 2024",
-    endDate: "Present",
+    endDate: "May 2026",
     body: "Developing, maintaining, and shipping features for a modern, customer-facing web portal enabling cloud-based management of lighting systems. Advised and trained junior frontend engineers on best practices when contributing frontend code. Implemented and maintained backend services and integrated with the frontend via RESTful APIs for full end-to-end functionality.",
     technologies: ["React", "TypeScript", "JavaScript", "Node", "HTML & CSS", "Jest", "Cypress", "Amazon Web Services (AWS)", "Go"],
     href: "https://connect.lutron.com"
@@ -35,7 +35,7 @@ const experienceData: ExperienceData[] = [
     company: "Merchant Math Tutoring LLC",
     title: "Founder and Engineer",
     startDate: "May 2023",
-    endDate: "Present",
+    endDate: "January 2026",
     body: "Developing a STEM tutoring platform for my start-up with my friend. Managing project requirements with business initiatives, successfully growing the platform.",
     technologies: ["React", "TypeScript", "HTML & CSS", "Node"],
     href: "https://merchantmathtutor.com"
